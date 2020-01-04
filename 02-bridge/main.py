@@ -19,7 +19,7 @@ INFLUXDB_DATABASE = 'home_db'
 
 MQTT_ADDRESS = 'mosquitto'
 MQTT_USER = 'mqttuser'
-MQTT_PASSWORD = 'mqttpassword'
+MQTT_PASSWORD = '3258763'
 MQTT_TOPIC = 'home/+/+'  # [bme280|mijia]/[temperature|humidity|battery|status]
 MQTT_REGEX = 'home/([^/]+)/([^/]+)'
 MQTT_CLIENT_ID = 'MQTTInfluxDBBridge'
